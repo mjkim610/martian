@@ -31,7 +31,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/projectdiscovery/martian/v3/marbl"
+	"github.com/mjkim610/martian/v3/marbl"
 )
 
 var (

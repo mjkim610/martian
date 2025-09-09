@@ -27,8 +27,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/projectdiscovery/martian/v3/cybervillains"
-	"github.com/projectdiscovery/martian/v3/mitm"
+	"github.com/mjkim610/martian/v3/cybervillains"
+	"github.com/mjkim610/martian/v3/mitm"
 	"google.golang.org/grpc/credentials"
 )
 

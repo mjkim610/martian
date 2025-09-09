@@ -17,7 +17,7 @@ package header
 import (
 	"net/http"
 
-	"github.com/projectdiscovery/martian/v3/proxyutil"
+	"github.com/mjkim610/martian/v3/proxyutil"
 )
 
 // Matcher is a conditonal evalutor of request or

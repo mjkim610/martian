@@ -21,7 +21,7 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/projectdiscovery/martian/v3"
+	"github.com/mjkim610/martian/v3"
 )
 
 // Filter filters RequestModifiers and ResponseModifiers by auth ID.

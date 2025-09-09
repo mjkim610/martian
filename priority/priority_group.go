@@ -21,8 +21,8 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/projectdiscovery/martian/v3"
-	"github.com/projectdiscovery/martian/v3/parse"
+	"github.com/mjkim610/martian/v3"
+	"github.com/mjkim610/martian/v3/parse"
 )
 
 var (

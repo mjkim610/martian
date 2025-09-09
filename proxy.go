@@ -27,11 +27,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/projectdiscovery/martian/v3/log"
-	"github.com/projectdiscovery/martian/v3/mitm"
-	"github.com/projectdiscovery/martian/v3/nosigpipe"
-	"github.com/projectdiscovery/martian/v3/proxyutil"
-	"github.com/projectdiscovery/martian/v3/trafficshape"
+	"github.com/mjkim610/martian/v3/log"
+	"github.com/mjkim610/martian/v3/mitm"
+	"github.com/mjkim610/martian/v3/nosigpipe"
+	"github.com/mjkim610/martian/v3/proxyutil"
+	"github.com/mjkim610/martian/v3/trafficshape"
 	stringsutil "github.com/projectdiscovery/utils/strings"
 	"golang.org/x/net/proxy"
 )
@@ -136,7 +136,7 @@ func (p *Proxy) SetRoundTripper(rt http.RoundTripper) {
 	p.roundTripper = rt
 
 	if tr, ok := p.roundTripper.(*http.Transport); ok {
-		tr.Proxy = http.ProxyURL(p.proxyURL)
+		// tr.Proxy = http.ProxyURL(p.proxyURL) // Removed this line as it was overwriting upstream proxy config
 		tr.DialContext = p.dialContext
 	}
 }
@@ -642,7 +642,7 @@ func (p *Proxy) handle(ctx *Context, conn net.Conn, brw *bufio.ReadWriter) error
 	}
 
 	// set request to original request manually, res.Request may be changed in transport.
-	// see https://github.com/projectdiscovery/martian/issues/298
+	// see https://github.com/mjkim610/martian/issues/298
 	res.Request = req
 
 	if err := p.resmod.ModifyResponse(res); err != nil {

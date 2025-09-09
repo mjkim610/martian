@@ -17,7 +17,7 @@ package auth
 import (
 	"sync"
 
-	"github.com/projectdiscovery/martian/v3"
+	"github.com/mjkim610/martian/v3"
 )
 
 const key = "auth.Context"

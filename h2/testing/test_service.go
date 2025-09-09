@@ -18,7 +18,7 @@ import (
 	"context"
 	"io"
 
-	tspb "github.com/projectdiscovery/martian/v3/h2/testservice"
+	tspb "github.com/mjkim610/martian/v3/h2/testservice"
 )
 
 // Server is a testing gRPC server.

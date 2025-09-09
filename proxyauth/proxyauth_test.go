@@ -20,10 +20,10 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/projectdiscovery/martian/v3"
-	"github.com/projectdiscovery/martian/v3/auth"
-	"github.com/projectdiscovery/martian/v3/martiantest"
-	"github.com/projectdiscovery/martian/v3/proxyutil"
+	"github.com/mjkim610/martian/v3"
+	"github.com/mjkim610/martian/v3/auth"
+	"github.com/mjkim610/martian/v3/martiantest"
+	"github.com/mjkim610/martian/v3/proxyutil"
 )
 
 func encode(v string) string {

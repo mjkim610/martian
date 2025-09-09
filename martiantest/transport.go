@@ -3,7 +3,7 @@ package martiantest
 import (
 	"net/http"
 
-	"github.com/projectdiscovery/martian/v3/proxyutil"
+	"github.com/mjkim610/martian/v3/proxyutil"
 )
 
 // Transport is an http.RoundTripper for testing.

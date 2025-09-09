@@ -21,8 +21,8 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/projectdiscovery/martian/v3"
-	"github.com/projectdiscovery/martian/v3/parse"
+	"github.com/mjkim610/martian/v3"
+	"github.com/mjkim610/martian/v3/parse"
 )
 
 // Modifier alters the request URL fields to match the fields of

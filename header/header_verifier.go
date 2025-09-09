@@ -22,10 +22,10 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/projectdiscovery/martian/v3"
-	"github.com/projectdiscovery/martian/v3/parse"
-	"github.com/projectdiscovery/martian/v3/proxyutil"
-	"github.com/projectdiscovery/martian/v3/verify"
+	"github.com/mjkim610/martian/v3"
+	"github.com/mjkim610/martian/v3/parse"
+	"github.com/mjkim610/martian/v3/proxyutil"
+	"github.com/mjkim610/martian/v3/verify"
 )
 
 const (

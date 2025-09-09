@@ -18,9 +18,9 @@ import (
 	"encoding/json"
 	"net/url"
 
-	"github.com/projectdiscovery/martian/v3/filter"
-	"github.com/projectdiscovery/martian/v3/log"
-	"github.com/projectdiscovery/martian/v3/parse"
+	"github.com/mjkim610/martian/v3/filter"
+	"github.com/mjkim610/martian/v3/log"
+	"github.com/mjkim610/martian/v3/parse"
 )
 
 // var noop = martian.Noop("url.Filter")

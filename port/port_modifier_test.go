@@ -19,7 +19,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/projectdiscovery/martian/v3/parse"
+	"github.com/mjkim610/martian/v3/parse"
 )
 
 func TestPortModifierOnPort(t *testing.T) {

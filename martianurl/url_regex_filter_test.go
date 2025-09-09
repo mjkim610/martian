@@ -19,10 +19,10 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/projectdiscovery/martian/v3"
-	_ "github.com/projectdiscovery/martian/v3/header"
-	"github.com/projectdiscovery/martian/v3/parse"
-	"github.com/projectdiscovery/martian/v3/proxyutil"
+	"github.com/mjkim610/martian/v3"
+	_ "github.com/mjkim610/martian/v3/header"
+	"github.com/mjkim610/martian/v3/parse"
+	"github.com/mjkim610/martian/v3/proxyutil"
 )
 
 func TestRegexFilterModifyRequest(t *testing.T) {

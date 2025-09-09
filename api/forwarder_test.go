@@ -18,7 +18,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/projectdiscovery/martian/v3"
+	"github.com/mjkim610/martian/v3"
 )
 
 func TestApiForwarder(t *testing.T) {

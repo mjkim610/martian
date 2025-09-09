@@ -24,7 +24,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/projectdiscovery/martian/v3/log"
+	"github.com/mjkim610/martian/v3/log"
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/hpack"
 )

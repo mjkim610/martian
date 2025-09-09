@@ -18,10 +18,10 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/projectdiscovery/martian/v3/filter"
-	"github.com/projectdiscovery/martian/v3/martiantest"
-	"github.com/projectdiscovery/martian/v3/parse"
-	"github.com/projectdiscovery/martian/v3/proxyutil"
+	"github.com/mjkim610/martian/v3/filter"
+	"github.com/mjkim610/martian/v3/martiantest"
+	"github.com/mjkim610/martian/v3/parse"
+	"github.com/mjkim610/martian/v3/proxyutil"
 )
 
 func TestFilterFromJSON(t *testing.T) {

@@ -30,7 +30,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/projectdiscovery/martian/v3/mitm"
+	"github.com/mjkim610/martian/v3/mitm"
 )
 
 func waitForProxy(t *testing.T, c *http.Client, apiURL string) {
